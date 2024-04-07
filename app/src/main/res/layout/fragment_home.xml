@@ -1,0 +1,145 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.home.HomeFragment"
+    tools:ignore="ExtraText"
+    tools:layout_editor_absoluteX="-8dp"
+    tools:layout_editor_absoluteY="116dp">
+
+    <!-- Personnel Name -->
+
+    <!-- Rank -->
+
+    <!-- Purpose of Visit Spinner -->
+
+    <!-- Check-in Button -->
+
+    <!-- Select Location Button -->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/buttonSelectLocation"-->
+    <!--        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="36dp"-->
+    <!--        android:hint="Select Location"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/spinnerPurpose" />-->
+
+
+    <TextView
+        android:id="@+id/editTextRank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Rank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonnelName" />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/buttonSelectLocation"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginBottom="40dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:focusable="false"-->
+    <!--        android:hint="Select Location"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/buttonCheckIn"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <TextView
+        android:id="@+id/editTextSelectLocation"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="384dp"
+        android:hint="Select Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <Button
+        android:id="@+id/buttonCheckIn"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="268dp"
+        android:text="Check In"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCheckIn" />
+
+    <TextView
+        android:id="@+id/editTextPersonnelName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:hint="Personnel Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- You can adjust the text size as needed --><![CDATA[
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextRank" />
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textViewPurposeOfVisit"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="Purpose of Visit"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextRank"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinnerPurpose"
+        android:layout_width="336dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:entries="@array/purpose_of_visit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewPurposeOfVisit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

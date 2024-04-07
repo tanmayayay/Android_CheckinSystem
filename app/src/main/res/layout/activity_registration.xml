@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextGivenName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Given Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="text"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextMilitaryID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Military ID"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Official Rank"
+            android:inputType="text"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextUsernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="text"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonUploadPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Photo"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

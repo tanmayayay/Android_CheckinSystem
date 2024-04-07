@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Check-In System</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Check-in System</string>
+    <string name="nav_header_subtitle">Developed by tanmayayay</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Check-in Page</string>
+    <string name="menu_gallery">Your Reservations</string>
+    <string name="menu_slideshow">Profile Page</string>
+
+    <string-array name="purpose_of_visit">
+        <item>Personal</item>
+        <item>Routine Duty</item>
+        <item>Special Assignment</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>
