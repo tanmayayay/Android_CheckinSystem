@@ -11,6 +11,7 @@
     <string name="menu_gallery">Your Reservations</string>
     <string name="menu_slideshow">Profile Page</string>
 
+
     <string-array name="purpose_of_visit">
         <item>Personal</item>
         <item>Routine Duty</item>

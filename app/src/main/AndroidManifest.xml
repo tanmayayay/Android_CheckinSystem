@@ -43,6 +43,8 @@
             </intent-filter>
         </activity>
 
+
+
         <!-- MainActivity and other activities in your application -->
         <activity
             android:name=".MainActivity"
@@ -64,6 +66,13 @@
             android:exported="false"
             android:theme="@style/Theme.TrialAPp.NoActionBar">
         </activity>
+
+        <activity android:name=".ui.LocationDetailActivity"
+            android:theme="@style/Theme.TrialAPp.NoActionBar"
+            android:exported="false"
+            android:label="@string/app_name"
+            />
+
 
     </application>
 

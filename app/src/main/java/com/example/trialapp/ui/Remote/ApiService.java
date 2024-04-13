@@ -37,7 +37,11 @@ public interface ApiService {
     @GET("/profile/{username}")
     Call<JsonObject> getUserProfile(@Path("username") String username);
 
+    @GET("/activeReservations/{place_id}")
+    Call<List<User>> getActiveReservations(@Path("place_id") String placeId);
 
+    @POST("/forgotPassword")
+    Call<?> forgotPasswordRequest(@Body ForgotPasswordRequest reqBody);
 
 
 }
