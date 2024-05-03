@@ -26,7 +26,7 @@ The backend service is already hosted on Google Cloud and handles all interactio
 git clone https://github.com/tanmayayay/Android_CheckinSystem.git
 cd Android_CheckinSystem
 
-### Running the Application
+## Running the Application
 1. Open the project in Android Studio.
 2. Add the Google Cloud API Key.
 3. Build the project using `Build -> Make Project`.
