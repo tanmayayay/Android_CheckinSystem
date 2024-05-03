@@ -16,8 +16,8 @@ The Android Checkin System is a mobile application designed to enable users to c
 - Kotlin (for Android development)
 
 ## Backend Service
-The backend service is maintained in a separate repository and is responsible for all interactions with the database and processing data from the mobile application.
-- Repository: [CheckinSystem_Backend](https://github.com/tanmayayay/CheckinSystem_Backend)
+The backend service is already hosted on Google Cloud and handles all interactions with the database and processes data from the mobile application.
+- For backend details, visit the repository: [CheckinSystem_Backend](https://github.com/tanmayayay/CheckinSystem_Backend)
 
 ## Installation
 
@@ -25,3 +25,9 @@ The backend service is maintained in a separate repository and is responsible fo
 ```bash
 git clone https://github.com/tanmayayay/Android_CheckinSystem.git
 cd Android_CheckinSystem
+
+### Running the Application
+1. Open the project in Android Studio.
+2. Add the Google Cloud API Key.
+3. Build the project using `Build -> Make Project`.
+4. Run the application on an emulator or a physical device using `Run -> Run 'app'`.
